@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.289" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Call Center Page" name="Verify the Search and Clear Button" time="0.107">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When Enter Valid Username...................................................passed
+And Enter Valid Password....................................................passed
+And Enter Valid Captcha.....................................................passed
+And Click on Login Button...................................................passed
+Then User should able login into next page..................................passed
+And Click Complaints DropDown...............................................passed
+Given I am on the Call Center page..........................................passed
+When Click on View Edit Dropdown Option.....................................passed
+Then Verify the Search and Clear Button.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call Center Page" name="Validate Update Insurer" time="0.016">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When Enter Valid Username...................................................passed
+And Enter Valid Password....................................................passed
+And Enter Valid Captcha.....................................................passed
+And Click on Login Button...................................................passed
+Then User should able login into next page..................................passed
+And Click Complaints DropDown...............................................passed
+Given I am on the Call Center page..........................................passed
+When Click on DoesNotPertain DropDown Option................................passed
+And Click on Edit Icon......................................................passed
+And Select the Insurance Company............................................passed
+Then Verify the Update Button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
